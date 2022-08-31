@@ -23,7 +23,7 @@ app.use(cors())
 app.use(helmet())
 app.use(compression())
 
-app.use('/api/users/',userRoute)
+app.use('/api/users/',userRoute) 
 app.use('/api/linese/',lineseRoute)
 app.use('/api/cars/',carRoute)
 app.use('/api/rentals/',rentalRoute)
